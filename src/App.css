@@ -1,0 +1,78 @@
+#root {
+  padding: 0;
+  margin: 0;
+  height: 900px;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
+}
+#main {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  color: #ffffff;
+  font-size: 2.5rem;
+  background-color: #7e24fa;
+}
+
+#left {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 5% 0 0 2%;
+  background-color: #ffffff;
+}
+#right {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 5% 2% 0 3%;
+  background-color: #f4ecff;
+}
+#search input {
+  height: 3rem;
+  width: 60%;
+  border: 1px solid black;
+  margin-right: 5%;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+#submit {
+  height: 3rem;
+  width: 20% !important;
+  display: block;
+  float: right;
+  background-color: #7e24fa;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+tr {
+  height: 2rem;
+}
+th {
+  width: 10%;
+  text-align: left;
+  padding-top: 3%;
+}
+td {
+  text-align: left;
+}
+#last {
+  width: 5%;
+}
+#left-list table,
+#right-list table {
+  margin: 0 auto;
+}
